@@ -83,7 +83,8 @@ ELASTICSEARCH_URLS = {
 ELASTICSEARCH_DEFAULT_VERSION = '7.7.0'
 # See https://docs.aws.amazon.com/ja_jp/elasticsearch-service/latest/developerguide/aes-supported-plugins.html
 ELASTICSEARCH_PLUGIN_LIST = ['analysis-icu', 'ingest-attachment', 'analysis-kuromoji',
- 'mapper-murmur3', 'mapper-size', 'analysis-phonetic', 'analysis-smartcn', 'analysis-stempel', 'analysis-ukrainian']
+ 'mapper-murmur3', 'mapper-size', 'analysis-phonetic', 'analysis-smartcn', 'analysis-stempel', 'analysis-ukrainian',
+ 'repository-s3']
 # Default ES modules to exclude (save apprx 66MB in the final image)
 ELASTICSEARCH_DELETE_MODULES = ['ingest-geoip']
 ELASTICMQ_JAR_URL = 'https://s3-eu-west-1.amazonaws.com/softwaremill-public/elasticmq-server-0.15.7.jar'
